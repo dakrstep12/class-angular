@@ -1,0 +1,12 @@
+<div class="lists">
+    <div class="list-block">
+        <div class="list-block--item">
+            <p>{{ Titlelist.id }}. </p>
+            <app-task-checkbox [checked]="Titlelist.done" (sendStatusChecked)="updateStatus($event)"></app-task-checkbox>
+            <div class="txtlist">
+                <label for="input-check">Title: {{ Titlelist.title }} &nbsp; Status: {{ Titlelist.done}}</label>
+            </div>
+        </div>
+    </div>
+</div>
+

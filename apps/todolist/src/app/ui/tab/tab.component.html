@@ -1,0 +1,5 @@
+<div class="btn-tab">
+   <button class="btn-tab__button" [class.active]="clicked === label" *ngFor="let label of labels" (click)="handlerClick(label)">
+      {{label}}
+   </button>
+</div>

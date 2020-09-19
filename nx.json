@@ -28,6 +28,13 @@
     "todolist-e2e": {
       "tags": [],
       "implicitDependencies": ["todolist"]
+    },
+    "reuse": {
+      "tags": []
+    },
+    "reuse-e2e": {
+      "tags": [],
+      "implicitDependencies": ["reuse"]
     }
   }
 }

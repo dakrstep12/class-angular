@@ -1,0 +1,4 @@
+<div class="input-btn" (keyup)="enterSubmit($event.keyCode, inputTxt.value)">
+    <input class="input-set" type="text" placeholder="Add Item" #inputTxt>
+    <button class="btn-click" (click)="handlerAdd(inputTxt.value)">ADD</button>
+</div>

@@ -1,0 +1,16 @@
+<div class="container">
+    <div class="img-logo">
+        <img src="../../assets/logo-todo.png">
+        <h1>TO DO LIST</h1>
+    </div>
+
+    
+    <app-task-input (sendTxtAdd)="addTask($event)"></app-task-input>
+    <br>
+    <app-tab [labels]="filterType" (outTab)="doFilter($event)"></app-tab>
+    <app-task-item *ngFor="let Titlelist of Titlelists" [Titlelist]="Titlelist" (booStatus)="updateStatus($event, Titlelist)"></app-task-item>
+</div>
+<br>
+<!-- {{Titlelists | json}} -->
+<!-- [] = คือการรับ -->
+<!-- <dom [class.xxx]=""></dom> -->

@@ -1,1 +1,135 @@
 /* You can add global styles to this file, and also import other style files */
+
+* {
+    font-family: 'Barlow', sans-serif;
+}
+
+.input-set {
+    width: 28%;
+    padding: 8px;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.input-set::placeholder{
+    color: darkgray;
+}
+
+.input-checkbox {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-click{
+    margin-left: 5px;
+    padding: 8px 30px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.all-body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: inline-block;
+    /* background-color: #84b4c8; */
+    background-image: linear-gradient(to right bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #87a4e9, #73adec, #61b5ed, #43beeb, #29c6e5, #28cdd9, #41d3ca);
+    padding: 1.5rem 1rem;
+    margin-bottom: 1rem;
+    width: 70%;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.btn-tab {
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+
+.lists div { 
+    display: flex;
+    font-size: 18px;
+    align-items: center;
+}
+
+.lists {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.list-block {
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.list-block--item{
+    
+    margin-left: 12px;
+}
+
+.list-block--item p {
+    margin-right: 10px;
+}
+
+.txtlist {
+    margin-left: 10px;
+}
+
+.newcolor{
+    color: #e40a0a;
+    
+    text-transform: capitalize;
+}
+
+.input-btn {
+    text-align: center;
+}
+
+.btn-tab__button {
+    background-color: #0a8e15;
+    padding: 10px 45px;
+    margin-right: 5px;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 7px 8px 21px -6px rgba(0,0,0,0.56);
+    -moz-box-shadow: 7px 8px 21px -6px rgba(0,0,0,0.56);
+    box-shadow: 7px 8px 21px -6px rgba(0,0,0,0.56);
+    font-size: 17px;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-tab__button:first-child{
+    background-color: #0a4b85;
+}
+
+.btn-tab__button:last-child{
+    background-color: #d30000;
+}
+
+.active {
+    border: 5px solid black;
+}
+
+.img-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+.img-logo h1{
+    margin-left: 10px;
+}
+
+.img-logo img {
+    width: 120px;
+} 
