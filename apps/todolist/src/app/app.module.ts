@@ -8,6 +8,7 @@ import { TaskItemComponent } from './task-item/task-item.component';
 import { TaskCheckboxComponent } from './task-checkbox/task-checkbox.component';
 import { TaskService } from './task.service';
 import { TabComponent } from './ui/tab/tab.component';
+import { PlaceholderComponent } from './elements/placeholder/placeholder.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TabComponent } from './ui/tab/tab.component';
     TaskInputComponent,
     TaskItemComponent,
     TaskCheckboxComponent,
-    TabComponent
+    TabComponent,
+    PlaceholderComponent
   ],
   imports: [
     BrowserModule
